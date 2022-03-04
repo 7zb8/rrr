@@ -7,8 +7,7 @@ try:
 except ModuleNotFoundError as e:
     m = str(e).split("'")[1]
     os.system(f'pip install {m}')
-rr= Tk()
-rr.withdraw()
+
 c1 = colorama.Fore.RED
 c2 = colorama.Fore.RESET
 os.system('cls' if os.name == 'nt' else 'clear')
