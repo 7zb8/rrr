@@ -2,6 +2,8 @@ try:
     import requests  ,time , threading,os,string,random,re,colorama,socket,uuid
     from tkinter import *
     from tkinter import messagebox
+    from tkinter import Tk
+
 except ModuleNotFoundError as e:
     m = str(e).split("'")[1]
     os.system(f'pip install {m}')
