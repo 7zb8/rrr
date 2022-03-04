@@ -63,7 +63,7 @@ if TYPE == '4':
     vv = 'Hate speech or symbols'
 def Rep():
     os.system('cls' if os.name == 'nt' else 'clear')
-    print({colorama.Fore.RED}banner{colorama.Fore.REST})
+    print(f'{colorama.Fore.RED}{banner}{colorama.Fore.RESET}')
     print('')
     print(f'{h} Done Get All Settings')
     time.sleep(1.9)
