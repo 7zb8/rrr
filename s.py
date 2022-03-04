@@ -1,3 +1,9 @@
+c1 = colorama.Fore.RED
+c2 = colorama.Fore.RESET
+os.system('cls' if os.name == 'nt' else 'clear')
+messagebox.showinfo('@7zb8 Report', f'programmed by @7zb8')
+h = f'{c2}[ {c1}+{c2} ]'
+e = f'{c2}[ {c1}-{c2} ]'
 def D():
     input(f'{e} Enter To Exit : ')
     exit(1)
